@@ -1,0 +1,58 @@
+/* App.css */
+.weather {
+  margin: 20px auto;
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+h2{
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+p {
+  margin: 15px 0;
+  font-size: larger;
+  color: skyblue;
+}
+.result{
+  position: absolute;
+  left: 500px;
+  margin: 10px;
+}
